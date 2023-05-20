@@ -4,7 +4,7 @@ document.querySelector('#app').innerHTML = `
 
     <nav>
         <div class="nav-items">        
-            <a href="#" title="Github">Source Code</a>
+            <a href="https://github.com/SayedDileri/Notion-Clone" title="Github">Source Code</a>
             <!--<a href="#" title="About">About</a>-->
             <!--<a href="#" title="Contacts">Contacts</a>-->
         </div>
@@ -98,7 +98,7 @@ document.querySelector('#app').innerHTML = `
             <span>Made with</span>
                 <i class="fa fa-heart-o"  font-size: 1em;"></i>
             <span>by</span>
-            <a href="#">@SayedDileri</a>
+            <a href="https://github.com/SayedDileri" title="Sayed Dileri" >@SayedDileri</a>
         </footer>
 
 
