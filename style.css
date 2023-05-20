@@ -33,8 +33,6 @@ img, picture, svg, video {
   line-height: 1.75;
   font-weight: 400;
 
-  color-scheme: light dark;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
