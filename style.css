@@ -1,0 +1,162 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D3D1CB;
+}
+::-webkit-scrollbar-track {
+  background: #EDECE9;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.75;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.mg-1 {
+  margin: 1em 0em;
+}
+
+.default-cursor {
+  cursor: default;
+}
+
+a {
+  color: #303030;
+  font-weight: 350;
+  text-decoration: inherit;
+  border-radius: 4px;
+  padding: 0px 8px;
+  transition: 150ms ease-in-out;
+}
+a:hover {
+  background-color: rgb(236, 236, 236);
+  color: #0e0e0e;
+}
+
+#app {
+  padding: 0 30vw;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: grey;
+}
+
+article {
+  width: 100%;
+  margin: 5em 0em;
+  /* border: 1px solid rgb(209, 209, 209); */
+}
+
+
+article #heading {
+  cursor: default;
+  font-weight: 700;
+  font-size: 3em;
+  color: rgb(60, 60, 60);
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+
+article .home-page {
+  margin: 3em 0em;
+  color: rgb(60, 60, 60);
+}
+
+article .reading-length {
+  padding: 0.3em 0.5em;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+}
+
+article .reading-length i {
+  padding-right: 5px;
+}
+
+article .reading-length span {
+  font-weight: 450;
+  color: grey;
+}
+
+article .reading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  margin-bottom: 1em; 
+}
+
+
+footer span:nth-child(1) {
+  margin-right: 5px;
+}
+
+footer i {
+  color: #d67474;
+}
+
+footer span:nth-child(3) {
+  margin: 0px 5px;
+}
+
+
+@media screen and (max-width: 1024px ) {
+  #app {
+    padding: 0vw 20vw;
+  }
+}
+
+@media screen and (max-width: 531px ) {
+  #app {
+    padding: 0vw 10vw;
+  }
+}
+
+@media screen and (max-width: 320px ) {
+  article #heading {
+    font-size: 2em;
+  }
+}
+
+
