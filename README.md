@@ -1,3 +1,6 @@
+
+![Screenshot from 2023-05-21 02-36-30](https://github.com/SayedDileri/Notion-Clone/assets/89445591/c1698318-1551-4dd9-8218-b41d3f21066d)
+
 # Notion-Clone
 
 
