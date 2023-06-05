@@ -40,6 +40,16 @@ img, picture, svg, video {
   -webkit-text-size-adjust: 100%;
 }
 
+
+::selection {
+  background: #bbdbf7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #d9e4ff; /* Gecko Browsers */
+}
+
+
+
 .mg-1 {
   margin: 1em 0em;
 }
